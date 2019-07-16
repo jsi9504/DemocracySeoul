@@ -1,6 +1,6 @@
 {
-  "name": "HWPTest",
-  "description": "Blank Process",
+  "name": "민주주의서울",
+  "description": "민주주의 서울 내용 수집/분석 ",
   "main": "TopKeywords.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.5.3]",
