@@ -1,11 +1,3 @@
-UiPath ½ÇÇà½Ã ¼öÁ¤ÇØ¾ßÇÒ »çÇ×
-1. Variable¿¡¼­ Pathº¯¼ö¿¡ ÇöÀç UiPath ÇÁ·ÎÁ§Æ®°¡ ÀÖ´Â °æ·Î¸¦ ´ëÀÔÇÑ´Ù.
-2. Python scope¿¡¼­ ÇöÀç ÀÚ½ÅÀÇ python3.6ÀÇ °æ·Î¸¦ ³Ö¾îÁØ´Ù.
-
-
-
-
-°á°ú°ª:
-data_*.txt ÆÄÀÏÀº ¹ÎÁÖÁÖÀÇ ¼­¿ïÀÇ ½Ã¹Î Åä·Ð¿¡¼­ÀÇ comment listÀ» ÀúÀåÇÑ ÆÄÀÏÀÔ´Ï´Ù.
-wordfrequency_result*.txt ÆÄÀÏÀº °¢°¢ÀÇ Åä·Ð ÁÖÁ¦¿¡´ëÇØ Å°¿öµå ºóµµ¼ö Åë°è¸¦ ÀúÀåÇÑ ÆÄÀÏÀÔ´Ï´Ù.
-wordcloud_result*.txt ÆÄÀÏÀº °¢°¢ÀÇ ÁÖÁ¦¿¡¼­ ºÐ¼®µÈ Å°¿öµå¸¦ ÀÌ¿ëÇØ¼­ ¿öµå Å¬¶ó¿ìµåÀÔ´Ï´Ù.
+data_*.txt íŒŒì¼ì€ ë¯¼ì£¼ì£¼ì˜ ì„œìš¸ì˜ ì‹œë¯¼ í† ë¡ ì—ì„œì˜ comment listì„ ì €ìž¥í•œ íŒŒì¼ìž…ë‹ˆë‹¤.
+wordfrequency_result*.txt íŒŒì¼ì€ ê°ê°ì˜ í† ë¡  ì£¼ì œì—ëŒ€í•´ í‚¤ì›Œë“œ ë¹ˆë„ìˆ˜ í†µê³„ë¥¼ ì €ìž¥í•œ íŒŒì¼ìž…ë‹ˆë‹¤.
+wordcloud_result*.txt íŒŒì¼ì€ ê°ê°ì˜ ì£¼ì œì—ì„œ ë¶„ì„ëœ í‚¤ì›Œë“œë¥¼ ì´ìš©í•´ì„œ ì›Œë“œ í´ë¼ìš°ë“œìž…ë‹ˆë‹¤.

@@ -39,6 +39,24 @@
     },
     {
       "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.1.6863.33404"
+      },
+      "Assemblies": [
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.35.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.36.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.27.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.33.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.34.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.35.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.36.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "19.6.0"
       },
@@ -106,20 +124,45 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Python.Activities",
-        "Version": "1.1.6863.33404"
+        "Id": "CmdExecutor",
+        "Version": "1.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.Design.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.35.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.36.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.27.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.33.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.34.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.35.dll",
-        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.36.dll"
+        "C:\\Users\\jhyun\\.nuget\\packages\\cmdexecutor/1.0.1\\lib/net45/CmdExecutor.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.20\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\jhyun\\.nuget\\packages\\uipath.system.activities/19.6.0\\lib/net461/UiPath.System.Activities.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "Nourco.Text.StringWalker",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\jhyun\\.nuget\\packages\\nourco.text.stringwalker/1.0.1\\lib/net452/Nourco.Text.StringWalker.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "StringScanner",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\jhyun\\.nuget\\packages\\stringscanner/1.0.0\\lib/netstandard2.0/StringScanner.dll"
       ]
     }
   ],
@@ -142,6 +185,16 @@
         {
           "Item1": "DocumentFormat.OpenXml",
           "Item2": "[2.5.0, )"
+        }
+      ]
+    },
+    "CmdExecutor": {
+      "Id": "CmdExecutor",
+      "Version": "1.0.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.System.Activities",
+          "Item2": "[19.4.1, )"
         }
       ]
     },
@@ -205,6 +258,11 @@
       "Version": "11.0.2",
       "Dependencies": []
     },
+    "Nourco.Text.StringWalker": {
+      "Id": "Nourco.Text.StringWalker",
+      "Version": "1.0.1",
+      "Dependencies": []
+    },
     "NPOI": {
       "Id": "NPOI",
       "Version": "2.4.1",
@@ -217,6 +275,11 @@
     },
     "SharpZipLib": {
       "Id": "SharpZipLib",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "StringScanner": {
+      "Id": "StringScanner",
       "Version": "1.0.0",
       "Dependencies": []
     },

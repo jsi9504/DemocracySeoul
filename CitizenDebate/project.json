@@ -3,6 +3,9 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "CmdExecutor": "[1.0.1]",
+    "Nourco.Text.StringWalker": "[1.0.1]",
+    "StringScanner": "[1.0.0]",
     "UiPath.Excel.Activities": "[2.6.2]",
     "UiPath.Mail.Activities": "[1.5.0]",
     "UiPath.Python.Activities": "[1.1.6863.33404]",
