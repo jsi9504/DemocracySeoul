@@ -32,6 +32,18 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
+      "CmdExecutor/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.System.Activities": "19.4.1"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/CmdExecutor.dll": {}
+        }
+      },
       "CsvHelper/2.13.5": {
         "type": "package",
         "compile": {
@@ -184,6 +196,15 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "Nourco.Text.StringWalker/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/Nourco.Text.StringWalker.dll": {}
+        }
+      },
       "NPOI/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -206,6 +227,15 @@
         },
         "runtime": {
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "StringScanner/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/StringScanner.dll": {}
         }
       },
       "UiPath/19.6.7108.25473": {
@@ -553,6 +583,18 @@
         "lib/net40/ClosedXML.xml"
       ]
     },
+    "CmdExecutor/1.0.1": {
+      "sha512": "cn00GaoGwM9gC+2n8Y86CBRh1Qk1/Mfz4w/SQgrH/O0RJ1WIDtbuD/b9rk6hqwExXaRXRnpTO30LXm3v2aoCNQ==",
+      "type": "package",
+      "path": "cmdexecutor/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "cmdexecutor.1.0.1.nupkg.sha512",
+        "cmdexecutor.nuspec",
+        "lib/net45/CmdExecutor.dll",
+        "lib/net45/project.json"
+      ]
+    },
     "CsvHelper/2.13.5": {
       "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
       "type": "package",
@@ -752,6 +794,20 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "Nourco.Text.StringWalker/1.0.1": {
+      "sha512": "Nk1jFFg7Ql37/4E+1ZTPpWt90OKATBssBsu7wGxA9d+SvvwlWLj/b2OhIadQ2nCAeCOWTuPqNWCdYz5ckK7uUQ==",
+      "type": "package",
+      "path": "nourco.text.stringwalker/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Nourco.Text.StringWalker.dll",
+        "lib/net452/Nourco.Text.StringWalker.pdb",
+        "lib/net452/Nourco.Text.StringWalker.xml",
+        "nourco.text.stringwalker.1.0.1.nupkg.sha512",
+        "nourco.text.stringwalker.nuspec"
+      ]
+    },
     "NPOI/2.4.1": {
       "sha512": "85790/CY9z4DCU1KLpcdLSqaqaqmQOenTqXJfcsYK8LIKNAAoTgjT5LYLbORgdwAd63sbaJiCfB1SIn/dAXrJw==",
       "type": "package",
@@ -799,6 +855,18 @@
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
         "sharpziplib.1.0.0.nupkg.sha512",
         "sharpziplib.nuspec"
+      ]
+    },
+    "StringScanner/1.0.0": {
+      "sha512": "ctr/xPikyGt/4ZkhOvOwQEOrgkXKg5q5K06EEWblv83EMSb3EmZeSEf3eHnP+99bptsBVfF8kvVy2XCeMFCPMw==",
+      "type": "package",
+      "path": "stringscanner/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/StringScanner.dll",
+        "stringscanner.1.0.0.nupkg.sha512",
+        "stringscanner.nuspec"
       ]
     },
     "UiPath/19.6.7108.25473": {
@@ -1132,6 +1200,9 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "CmdExecutor >= 1.0.1 <= 1.0.1",
+      "Nourco.Text.StringWalker >= 1.0.1 <= 1.0.1",
+      "StringScanner >= 1.0.0 <= 1.0.0",
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
       "UiPath.Mail.Activities >= 1.5.0 <= 1.5.0",
       "UiPath.Python.Activities >= 1.1.6863.33404 <= 1.1.6863.33404",
@@ -1153,6 +1224,21 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "CmdExecutor": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.1, 1.0.1]"
+          },
+          "Nourco.Text.StringWalker": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.1, 1.0.1]"
+          },
+          "StringScanner": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -1181,5 +1267,14 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'StringScanner 1.0.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "StringScanner"
+    }
+  ]
 }
