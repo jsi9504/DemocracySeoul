@@ -4,6 +4,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import sys
+import os
 
 input_path= "data"
 output_path="datalog"
@@ -70,5 +71,6 @@ def analyze_wordcloud(count_list,image_path):
 
 
 if __name__ == "__main__" :
+    sys.path.append(os.path.dirname(os.path.realpath(__file__)))
     main(sys.argv[1])
 
